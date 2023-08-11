@@ -44,8 +44,6 @@ requirements = {
         "g2p-en",
         "huggingface-hub",
         "dataclasses",
-        "pyopenjtalk==0.1.5",
-
     ],
     "setup": ["numpy", "pytest-runner",],
     "test": [
