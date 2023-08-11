@@ -43,6 +43,8 @@ requirements = {
         "click",
         "g2p-en",
         "huggingface-hub",
+        "dataclasses",
+
     ],
     "setup": ["numpy", "pytest-runner",],
     "test": [
