@@ -41,6 +41,8 @@ requirements = {
         "g2pM",
         "textgrid",
         "click",
+        "g2p-en",
+        "huggingface-hub",
     ],
     "setup": ["numpy", "pytest-runner",],
     "test": [
