@@ -22,6 +22,9 @@ if LooseVersion(pip.__version__) < LooseVersion("19"):
 # TODO(@dathudeptrai) update requirement if needed.
 requirements = {
     "install": [
+        "tensorflow",
+        "tensorflow-addons",
+        "setuptools",
     ],
     "setup": ["numpy", "pytest-runner",],
     "test": [
