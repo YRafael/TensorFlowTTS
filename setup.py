@@ -35,6 +35,12 @@ requirements = {
         "inflect",
         "scikit-learn",
         "pyworld",
+        "numba",  # Fix No module named "numba.decorators"
+        "jamo",
+        "pypinyin",
+        "g2pM",
+        "textgrid",
+        "click",
     ],
     "setup": ["numpy", "pytest-runner",],
     "test": [
