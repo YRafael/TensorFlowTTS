@@ -25,6 +25,12 @@ requirements = {
         "tensorflow",
         "tensorflow-addons",
         "setuptools",
+        "librosa",
+        "soundfile",
+        "matplotlib",
+        "PyYAML",
+        "tqdm",
+        "h5py",
     ],
     "setup": ["numpy", "pytest-runner",],
     "test": [
