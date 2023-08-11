@@ -31,6 +31,10 @@ requirements = {
         "PyYAML",
         "tqdm",
         "h5py",
+        "unidecode",
+        "inflect",
+        "scikit-learn",
+        "pyworld",
     ],
     "setup": ["numpy", "pytest-runner",],
     "test": [
