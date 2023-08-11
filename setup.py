@@ -22,29 +22,6 @@ if LooseVersion(pip.__version__) < LooseVersion("19"):
 # TODO(@dathudeptrai) update requirement if needed.
 requirements = {
     "install": [
-        "tensorflow",
-        "tensorflow-addons",
-        "setuptools",
-        "librosa",
-        "soundfile",
-        "matplotlib",
-        "PyYAML",
-        "tqdm",
-        "h5py",
-        "unidecode",
-        "inflect",
-        "scikit-learn",
-        "pyworld",
-        "numba",  # Fix No module named "numba.decorators"
-        "jamo",
-        "pypinyin",
-        "g2pM",
-        "textgrid",
-        "click",
-        "g2p-en",
-        "huggingface-hub",
-        "dataclasses",
-        "pyopenjtalk",
     ],
     "setup": ["numpy", "pytest-runner",],
     "test": [
